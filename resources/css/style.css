@@ -1,0 +1,223 @@
+wrapper {
+    width: 100%;
+} 
+
+body {
+    font-family: helvetica;
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 100%;
+    height: 2.5rem;
+    background-color: black;
+    display: flex;
+    align-content: space-around;  
+}
+
+.logo p {
+    color: white;
+    font-size: 1rem;
+    padding-bottom: 0.66rem;
+    padding-top: 0.66rem;
+    margin: 0;
+}
+
+img {
+    height: 1.5rem;
+    margin-left: 5rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;   
+}
+
+.hero {
+    background-image: url("/resources/images/moto.jpeg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    flex-direction: row;
+    padding-top: 9rem;
+    padding-left: 7rem;
+}
+
+.headline h2 {
+    width: 20rem;
+    height: 5rem;
+    margin: 0;
+    padding-top: 0.25rem;
+    padding-left: 3rem;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    color: white;
+    background-color: black;
+}
+
+.headline p {
+    font-size: 1rem;
+    padding-top: 2rem;
+    padding-left: 3rem;
+    margin: 0;
+    color: white;
+    background-color: black;
+}
+
+ul {
+    width: 100%;
+    background-color: firebrick;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+li {
+    color: white;
+    font-weight: bold;
+    list-style: none;   
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box-1 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-right: 1rem;
+    height: 12rem;
+    width: 15rem;
+    border: 4px solid black;
+    border-bottom: 2.5rem solid black;
+    padding-bottom: 0.7rem;
+}
+
+.box-1 img {
+    height: 9rem;
+    padding: 2rem;
+    padding-left: 3rem;
+    margin: 0;
+}
+
+.box-1 h3 {
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+
+.box-2 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-right: 1rem;
+    height: 12rem;
+    width: 15rem;
+    border: 4px solid black;
+    border-bottom: 2.5rem solid black;
+    padding-bottom: 0.7rem; 
+}
+
+.box-2 img {
+    height: 9rem;
+    margin: 0;
+    padding: 2rem;
+    padding-left: 3.2rem
+}
+
+.box-2 h3 {
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+
+.box-3 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    height: 12rem;
+    width: 15rem;
+    border: 4px solid black;
+    border-bottom: 2.5rem solid black;
+    padding-bottom: 0.7rem;
+}
+
+.box-3 img {
+    height: 5rem;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    margin: 0;
+}
+
+.box-3 h3 {
+    margin: 0;
+    text-align: center;
+    padding-top: 2rem;
+    color: white;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+}
+
+.top h3 {
+    min-width: 20rem;
+    background-color: black;
+    color: white;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 2rem;
+}
+
+.bottom h3 {
+    min-width: 15rem;
+    background-color: black;
+    color: white;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 3rem;
+    margin-right: 2rem;
+}
+
+.bottom p {
+    margin-bottom: 4rem;
+}
+
+footer p {
+    height: 5rem;
+    margin-top: 4rem; 
+    margin-bottom: 0;
+    background-color: black;
+    color: white;
+    padding-top: 3.5rem;
+    padding-left: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
